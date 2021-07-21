@@ -9,7 +9,7 @@ export const SideberData = [
     {
         title: "Home",
         icon: <HomeIcon/>,
-        link: "/home"
+        link: "/"
     },
     {
         title: "Mailbox",

@@ -16,9 +16,6 @@ const useStyles = makeStyles((theme) => ({
   },
   shiftright: {
     display: 'flex',
-    
-    
-
   }
 }));
 
@@ -46,7 +43,7 @@ export default function Appbar() {
       
     </div>
     {
-      showLeftBar ? <div className={classes.shiftright}><Sidebar /></div>:<h1>Hello</h1>
+      showLeftBar && <div className={classes.shiftright}><Sidebar /></div>
     }
     </>
   );
