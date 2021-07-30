@@ -24,8 +24,8 @@ const marginTop={marginTop:5}
                     <Typography variant='caption'>please this form to create an account !</Typography>
                 </Grid>
                 <form>
-                    <TextField fullwidth='Name' placeholder="Enter your name" />
-                    <TextField fullwidth='Email' placeholder="Enter your email" />
+                    <TextField label='Name' placeholder="Enter your name" fullWidth required />
+                    <TextField label='Email' placeholder="Enter your email" fullWidth required />
                     <FormControl component="fieldset" style={marginTop}>
                         <FormLabel component="legend">Gender</FormLabel>
                         <RadioGroup aria-label="gender" name="gender" style={{display:'initial'}}>
@@ -33,9 +33,9 @@ const marginTop={marginTop:5}
                             <FormControlLabel value="male" control={<Radio />} label="Male" />
                         </RadioGroup>
                     </FormControl>
-                    <TextField fullwidth='Phone Number' placeholder="Enter your phone number" />
-                    <TextField fullwidth='Password' placeholder="Enter your password" />
-                    <TextField fullwidth='Confirm Password' placeholder="Enter your confirm password" />
+                    <TextField label='Phone Number' placeholder="Enter your phone number" fullWidth required />
+                    <TextField label='Password' type="password" placeholder="Enter your password" fullWidth required />
+                    <TextField label='Confirm Password' type="confirm password" placeholder="Enter your confirm password" fullWidth required />
                     <FormControlLabel
                         control={<Checkbox name="checkedA" />}
                         label="I accept the terms and condition"

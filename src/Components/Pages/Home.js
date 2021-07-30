@@ -28,6 +28,15 @@ function Home() {
                   <Typography variant="h4" style={blogTitle}>
                       Articles
                   </Typography>
+                  <div>
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                      <img width={'360px'} height={'360px'} src={images} />
+                  </div>
               </Container>
         </div>
     );
